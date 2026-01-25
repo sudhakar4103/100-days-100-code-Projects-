@@ -23,7 +23,7 @@ def caesar(original_text, shift_amount, encode_or_decode):
 
 
 should_continue = True
-
+# loop me game chalega
 while should_continue:
 
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
