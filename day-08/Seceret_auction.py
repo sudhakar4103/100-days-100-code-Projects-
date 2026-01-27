@@ -10,7 +10,7 @@ def find_highest_bidder(bidding_record):
         if bid_amount > highest_bid:
             highest_bid = bid_amount
             win = bidder
-    print(f"The winner is {win} with a bid of ${highest_bid}")
+    print(f"The winner is {win} with a bid of ${highest_bid}.")
 
 
 bids = {}
